@@ -1,3 +1,3 @@
-# java
+# Java
 
-This is a directory for all random minor projects I created in java11.
+This is a directory for all random minor projects I'm creating in Java 11.
