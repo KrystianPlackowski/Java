@@ -1,6 +1,4 @@
-package com.company;
-
-import static java.lang.Integer.max;
+package com.company.AdvancedFractionCalculator;
 
 public class Fraction {
     private int numerator;

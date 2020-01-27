@@ -1,4 +1,4 @@
-package com.company;
+package com.company.FractionCalculator;
 
 import java.util.Scanner;
 
@@ -10,13 +10,16 @@ public class Main {
         System.out.println("Please enter your fractions in the form a/b, where a and b are integers");
 
         Scanner input = new Scanner(System.in);
-        FractionCalculatorAdvanced calc = new FractionCalculatorAdvanced();
+        FractionCalculator calc = new FractionCalculator();
         while(true) {
-            Expression expression = calc.getExpression(input);
-            if (expression.userTypedQuit()) {
+            String operation = calc.getOperation(input);
+            if (operation.equals("q")) {
                 break;
             }
 
+            Fraction firstFraction = calc.getFraction(input);
+            Fraction secondFraction = calc.getFraction(input);
+            Expression expression = new Expression(operation, firstFraction, secondFraction);
             Object result = calc.evaluate(expression);
             CalculationResultViewer viewer = new CalculationResultViewer(expression, result);
             viewer.displayResult();

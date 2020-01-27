@@ -1,6 +1,4 @@
-package com.company;
-
-import java.util.function.BiFunction;
+package com.company.FractionCalculator;
 
 public class Expression {
     String operation;

@@ -1,4 +1,4 @@
-package com.company;
+package com.company.AdvancedFractionCalculator;
 
 public class CalculationResultViewer {
     Expression expression;

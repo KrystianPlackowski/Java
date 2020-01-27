@@ -1,4 +1,4 @@
-package com.company;
+package com.company.AdvancedFractionCalculator;
 
 import org.junit.jupiter.api.Assertions;
 

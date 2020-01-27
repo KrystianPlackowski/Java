@@ -1,8 +1,7 @@
-package com.company;
+package com.company.AdvancedFractionCalculator;
 
 import java.util.Scanner;
 import java.util.function.BiFunction;
-import java.util.function.Function;
 
 public class FractionCalculatorAdvanced {
 
