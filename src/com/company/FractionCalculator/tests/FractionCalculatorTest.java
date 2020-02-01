@@ -1,5 +1,7 @@
-package com.company.FractionCalculator;
+package com.company.FractionCalculator.tests;
 
+import com.company.FractionCalculator.Fraction;
+import com.company.FractionCalculator.FractionCalculator;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

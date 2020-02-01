@@ -1,5 +1,8 @@
-package com.company.AdvancedFractionCalculator;
+package com.company.AdvancedFractionCalculator.tests;
 
+import com.company.AdvancedFractionCalculator.CalculationResultViewer;
+import com.company.AdvancedFractionCalculator.Expression;
+import com.company.AdvancedFractionCalculator.FractionCalculatorAdvanced;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

@@ -1,5 +1,6 @@
-package com.company.FractionCalculator;
+package com.company.AdvancedFractionCalculator.tests;
 
+import com.company.AdvancedFractionCalculator.Fraction;
 import org.junit.jupiter.api.Assertions;
 
 class FractionTest {
@@ -20,8 +21,10 @@ class FractionTest {
     void testToString() {
         Fraction frac1 = new Fraction(4,-14);
         Fraction frac2 = new Fraction(4,-1);
+        Fraction frac3 = new Fraction(10,6);
         Assertions.assertEquals("-4/14", frac1.toString());
         Assertions.assertEquals("-4", frac2.toString());
+        Assertions.assertEquals("10/6", frac3.toString());
     }
 
     @org.junit.jupiter.api.Test
