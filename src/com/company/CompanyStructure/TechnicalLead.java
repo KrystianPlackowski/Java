@@ -3,7 +3,7 @@ package com.company.CompanyStructure;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TechnicalLead extends TechnicalEmployee implements {
+public class TechnicalLead extends TechnicalEmployee {
     private int headCount;
     private int reportsCount;
     private List<SoftwareEngineer> directReports;
@@ -37,7 +37,7 @@ public class TechnicalLead extends TechnicalEmployee implements {
     }
 
     public boolean approveCheckIn(SoftwareEngineer engineer) {
-        return engineer.getCodeAccess() && this.equals((TechnicalLead)engineer.getManager());
+        return engineer.getCodeAccess() && this.equals(engineer.getManager());
     }
 
     public String getTeamStatus() {
